@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Action-Packed Survival Game | HelloLaowai</title>
+    <meta name="description" content="Play Monster Survivors online - an intense survival game where you battle hordes of monsters with unique abilities and upgrades.">
+    <link rel="canonical" href="https://hellolaowai.online/monster-survivors">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#0066CC',
+                            gray: '#F5F5F7',
+                            darkgray: '#86868B',
+                            black: '#1D1D1F'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-apple-gray text-apple-black min-h-screen">
+    <header class="bg-apple-blue text-white p-4 md:p-6">
+        <div class="container mx-auto">
+            <nav class="flex justify-between items-center">
+                <a href="https://hellolaowai.online" class="text-xl font-bold">HelloLaowai</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#game" class="hover:underline">Play Now</a>
+                    <a href="#about" class="hover:underline">About</a>
+                    <a href="#features" class="hover:underline">Features</a>
+                    <a href="#tips" class="hover:underline">Tips & Tricks</a>
+                </div>
+                <button class="md:hidden" id="mobile-menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </nav>
+            <div class="hidden mt-4 md:hidden" id="mobile-menu">
+                <div class="flex flex-col space-y-3">
+                    <a href="#game" class="hover:underline">Play Now</a>
+                    <a href="#about" class="hover:underline">About</a>
+                    <a href="#features" class="hover:underline">Features</a>
+                    <a href="#tips" class="hover:underline">Tips & Tricks</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Monster Survivors</h1>
+            <p class="text-xl text-apple-darkgray max-w-3xl mx-auto">An adrenaline-fueled survival game where your skills are tested against endless waves of monsters.</p>
+        </section>
+
+        <section id="game" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">Play Monster Survivors</h2>
+            <div class="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl bg-black">
+                <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" frameborder="0" class="w-full h-full" allowfullscreen allow="autoplay; fullscreen"></iframe>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-sm text-apple-darkgray">Having trouble loading? <a href="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" class="text-apple-blue hover:underline" target="_blank">Open game in a new tab</a></p>
+            </div>
+        </section>
+
+        <section id="about" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">About Monster Survivors</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <p class="mb-4">Monster Survivors is an action-packed survival game that puts your reflexes and strategic thinking to the test. Fight against hordes of monsters that become increasingly difficult as you progress through the game.</p>
+                    <p class="mb-4">In this game, you'll navigate a challenging environment while collecting power-ups and upgrades to enhance your character's abilities. Each playthrough offers a unique experience, with randomly generated monster waves and upgrade options.</p>
+                    <p>The goal is simple yet challenging: survive as long as possible and defeat as many monsters as you can to achieve the highest score and unlock special achievements.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-apple-blue">Game Highlights</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Intuitive controls for both desktop and mobile gameplay</li>
+                        <li>Multiple character classes with unique abilities</li>
+                        <li>Procedurally generated levels for endless replayability</li>
+                        <li>Diverse monster types with different attack patterns</li>
+                        <li>Skill-based progression system</li>
+                        <li>Stunning graphics and immersive sound effects</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Character Progression</h3>
+                    <p>Level up your character by defeating monsters and collecting experience orbs. Each level grants you a choice of powerful upgrades that can dramatically change your playstyle.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Weapon Systems</h3>
+                    <p>Discover and upgrade various weapons ranging from basic attacks to area-of-effect abilities. Combine different weapons for devastating combos against monster hordes.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Monster Variety</h3>
+                    <p>Face different types of monsters with unique behaviors, attack patterns, and weaknesses. Adapt your strategy to efficiently deal with the specific threats you encounter.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">Tips & Tricks</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <ol class="list-decimal pl-5 space-y-4">
+                    <li>
+                        <h3 class="text-lg font-bold">Prioritize Movement Speed</h3>
+                        <p>Early movement speed upgrades can help you avoid getting cornered by monster groups.</p>
+                    </li>
+                    <li>
+                        <h3 class="text-lg font-bold">Balance Your Upgrades</h3>
+                        <p>Don't focus solely on offensive abilities; defensive upgrades are equally important for survival in later stages.</p>
+                    </li>
+                    <li>
+                        <h3 class="text-lg font-bold">Kite Monster Groups</h3>
+                        <p>Move in circular patterns to group monsters together, making them easier to hit with area attacks.</p>
+                    </li>
+                    <li>
+                        <h3 class="text-lg font-bold">Target Elite Monsters First</h3>
+                        <p>Elite monsters (indicated by a special glow) are more dangerous but drop better rewards when defeated.</p>
+                    </li>
+                    <li>
+                        <h3 class="text-lg font-bold">Watch For Environmental Hazards</h3>
+                        <p>Some maps contain hazards that can damage both you and enemies—use them to your advantage.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-black text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Monster Survivors</h2>
+                    <p class="mb-2">An action-packed survival game available exclusively on HelloLaowai.</p>
+                    <p>&copy; 2023 HelloLaowai. All rights reserved.</p>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Connect With Us</h2>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-apple-blue transition-colors">Twitter</a>
+                        <a href="#" class="hover:text-apple-blue transition-colors">Facebook</a>
+                        <a href="#" class="hover:text-apple-blue transition-colors">Instagram</a>
+                        <a href="#" class="hover:text-apple-blue transition-colors">Discord</a>
+                    </div>
+                    <p class="mt-4">Contact: <a href="mailto:info@hellolaowai.online" class="hover:underline">info@hellolaowai.online</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html> 
